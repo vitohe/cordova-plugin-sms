@@ -101,7 +101,7 @@ extends CordovaPlugin {
             result = this.startWatch(callbackContext);
         } else if (ACTION_STOP_WATCH.equals(action)) {
             result = this.stopWatch(callbackContext);
-        } else if (ACTION_ENABLE_I NTERCEPT.equals(action)) {
+        } else if (ACTION_ENABLE_INTERCEPT.equals(action)) {
             boolean on_off = inputs.optBoolean(0);
             result = this.enableIntercept(on_off, callbackContext);
         } else if (ACTION_LIST_SMS.equals(action)) {

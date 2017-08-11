@@ -1,5 +1,5 @@
 
-# cordova-plugin-sms #
+# cordova-plugin-sms-watch #
 
 Plugin to operate SMS, send / list / intercept / delete / restore.
 
@@ -7,7 +7,7 @@ Plugin to operate SMS, send / list / intercept / delete / restore.
 
 Use the plugin with Cordova CLI (v5.x or above):
 ```bash
-cordova plugin add cordova-plugin-sms
+cordova plugin add cordova-plugin-sms-watch
 ```
 
 When use with PhoneGap Build, write following line in your config.xml:
@@ -20,15 +20,12 @@ When use with PhoneGap Build, write following line in your config.xml:
 ### Methods ###
 
 ```javascript
-sendSMS(address(s), text, successCallback, failureCallback);
 listSMS(filter, successCallback, failureCallback);
-deleteSMS(filter, successCallback, failureCallback);
 
 startWatch(successCallback, failureCallback);
 stopWatch(successCallback, failureCallback);
 
 enableIntercept(on_off, successCallback, failureCallback);
-restoreSMS(msg_or_msgs, successCallback, failureCallback);
 
 setOptions(options, successCallback, failureCallback);
 ```
