@@ -16,7 +16,7 @@
 	</engines>
 
     <js-module src="www/SMS.js" name="SMS">
-        <clobbers target="window.SMS" />
+        <clobbers target="window.smsWatch" />
     </js-module>
 
     <!-- android -->
