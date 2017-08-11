@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "Cordova plugin to operate SMS, send/list/intercept/delete/restore",
   "cordova": {
-    "id": "cordova-plugin-sms2",
+    "id": "cordova-plugin-sms-watch",
     "platforms": [
       "android"
     ]
