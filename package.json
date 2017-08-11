@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-sms-watch",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "sms plugin",
   "cordova": {
     "id": "cordova-plugin-sms-watch",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vitohe/cordova-plugin-sms.git"
+    "url": "https://github.com/vitohe/cordova-plugin-sms-watch.git"
   },
   "keywords": [
     "cordova"
